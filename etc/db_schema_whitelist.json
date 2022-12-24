@@ -1,0 +1,26 @@
+{
+    "risecommerce_review_reminder_log": {
+        "column": {
+            "review_reminder_id": true,
+            "order_id": true,
+            "order_increment_id": true,
+            "email": true,
+            "name": true,
+            "status": true,
+            "schedule_at": true,
+            "no_of_time_sent": true,
+            "customer_group_id": true,
+            "product": true,
+            "errormsg": true,
+            "creation_time": true
+        },
+        "index": {
+            "RISECOMMERCE_REVIEW_REMINDER_LOG_EMAIL": true,
+            "RISECOMMERCE_REVIEW_REMINDER_LOG_ORDER_INCREMENT_ID": true,
+            "RISECOMMERCE_REVIEW_REMINDER_LOG_REVIEW_REMINDER_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Risecommerce_ReviewReminder::Risecommerce_ReviewReminder" title="Review Reminder"
+             module="Risecommerce_ReviewReminder" sortOrder="100" parent="Magento_Backend::marketing"
+             resource="Risecommerce_ReviewReminder::review_reminder"  dependsOnConfig="review_reminder/general/enabled"/>
+        <add id="Risecommerce_ReviewReminder::ReviewReminder" title="Review Reminder Log"
+             module="Risecommerce_ReviewReminder" sortOrder="101" parent="Risecommerce_ReviewReminder::Risecommerce_ReviewReminder"
+             action="risecommerce_review_reminder/log" resource="Risecommerce_ReviewReminder::review_reminder"/>
+    </menu>
+</config>
