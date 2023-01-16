@@ -17,7 +17,7 @@ Method II)
 
 Using Composer 
 
-composer require risecommerce/magento-2-review-reminder-extension.1.0.1
+composer require risecommerce/magento-2-review-reminder-extension:1.0.1
 
 #Enable Extension:
 - php bin/magento module:enable Risecommerce_ReviewReminder
