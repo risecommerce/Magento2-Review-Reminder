@@ -7,8 +7,10 @@ If you're looking to enhance your Magento store further, consider hiring a [dedi
 
 For support or inquiries, please visit our [contact page](https://risecommerce.com/contact).
 
-## Support: 
+## Support and Tested
 version - 2.3.x, 2.4.x
+Mage-OS 3.2.0 (Magento 2.4.9 fork)
+PHP 8.3 - PHP 8.5
 
 ## How to install Extension
 
@@ -38,3 +40,8 @@ composer require risecommerce/magento-2-review-reminder-extension:1.0.1
 - php bin/magento setup:di:compile
 - php bin/magento setup:static-content:deploy
 - php bin/magento cache:flush
+
+
+### Bug Fixed 
+
+Bug hit on /checkout/onepage/success/ frontend flow - fixed 1 July 2026
