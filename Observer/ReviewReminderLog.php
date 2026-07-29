@@ -54,6 +54,14 @@ class ReviewReminderLog implements ObserverInterface
      * @var DateTime
      */
     private $dateTime;
+    /**
+     * @var ImageFactory
+     */
+    private $imageHelper;
+    /**
+     * @var Emulation
+     */
+    private $_appEmulation;
 
     /**
      * ReviewReminderLog constructor.
